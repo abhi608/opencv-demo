@@ -25,7 +25,7 @@ Navigate to the test folder and run
 `$ make`
 
 If you see a window showing the webcam output then you have successfully installed OpenCV.
-
+Press 'x' to exit.
 # Compiling
 The .cpp files made during the demonstration can be compiled using
 
