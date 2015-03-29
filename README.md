@@ -15,7 +15,7 @@ Run the command corresponding to your OS in the terminal
 * __Arch__: `$ sudo pacman -S opencv`
 * __Windows__:
     * Install the trial version of Ceemple IDE from [https://www.ceemple.com/getceemple/](https://www.ceemple.com/getceemple/) *(preferred)*
-    * Install OpenCV from [http://opencv.org/downloads.html](http://opencv.org/downloads.html) and configure it for any IDE of your choice
+    * OR Install OpenCV from [http://opencv.org/downloads.html](http://opencv.org/downloads.html) and configure it for any IDE of your choice
 
 The demonstration will be done using *Ceemple IDE* for windows and OpenCV installed on *Ubuntu*
 
