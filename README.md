@@ -21,13 +21,23 @@ Run the command corresponding to your OS in the terminal
 * __Windows__:
     * Install the trial version of Ceemple IDE from [https://www.ceemple.com/getceemple/](https://www.ceemple.com/getceemple/) *(preferred)*
     * OR Install OpenCV from [http://opencv.org/downloads.html](http://opencv.org/downloads.html) and configure it for any IDE of your choice
+        * [Visual Studio](https://www.youtube.com/watch?v=e_TQ9c3n_d8)
+        * [Code::Blocks](https://zahidhasan.wordpress.com/2013/02/16/how-to-install-opencv-on-windows-7-64bit-using-mingw-64-and-codeblocks/)
 
 The demonstration will be done using *Ceemple IDE* for windows and OpenCV installed on *Ubuntu*
 
 # Post - Installation
-Navigate to the test folder and run
-
-`$ make`
+### Linux: 
+Start the terminal and clone the repository, navigate to the test folder and run the Makefile
+```
+$ git clone https://www.github.com/lakshayg/opencv-demo
+$ cd opencv-demo/test
+$ make
+```
+### Windows:
+* Download the repository by clicking on this link [https://github.com/lakshayg/opencv-demo/archive/master.zip](https://github.com/lakshayg/opencv-demo/archive/master.zip)
+* Extract the zip archive and open the file test.cpp in the folder test in any IDE
+* Compile and run using your IDE to check if OpenCV is installed correctly
 
 If you see a window showing the webcam output then you have successfully installed OpenCV.
 Press 'x' to exit.
