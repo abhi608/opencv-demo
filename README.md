@@ -5,8 +5,11 @@ their color and motion. It would be desirable that any person attending the
 workshop comes with his/her own laptop with OpenCV installed. The
 installation instructions are given below. Also to be able to test if the 
 code is correctly working, it would be helpful if you bring a distinctly
-colored object. The code written during the demonstration will be later
-uploaded to this repository.
+colored object.
+
+The code written during the demonstration has been uploaded
+in the repository. The code tracks green objects by default. To begin tracking
+press 'T', to exit the program press 'Q'.
 
 # Installing OpenCV
 Run the command corresponding to your OS in the terminal
