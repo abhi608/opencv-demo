@@ -5,8 +5,13 @@ their color and motion. It would be desirable that any person attending the
 workshop comes with his/her own laptop with OpenCV installed. The
 installation instructions are given below. Also to be able to test if the 
 code is correctly working, it would be helpful if you bring a distinctly
-colored object. The code written during the demonstration will be later
-uploaded to this repository.
+colored object.
+
+The code written during the demonstration has been uploaded
+in the repository. The code tracks green objects by default. To begin tracking
+press 'T', to exit the program press 'Q'.
+
+![Object tracking demo](demo/color-track.png)
 
 # Installing OpenCV
 Run the command corresponding to your OS in the terminal
@@ -15,14 +20,24 @@ Run the command corresponding to your OS in the terminal
 * __Arch__: `$ sudo pacman -S opencv`
 * __Windows__:
     * Install the trial version of Ceemple IDE from [https://www.ceemple.com/getceemple/](https://www.ceemple.com/getceemple/) *(preferred)*
-    * Install OpenCV from [http://opencv.org/downloads.html](http://opencv.org/downloads.html) and configure it for any IDE of your choice
+    * OR Install OpenCV from [http://opencv.org/downloads.html](http://opencv.org/downloads.html) and configure it for any IDE of your choice
+        * [Visual Studio](https://www.youtube.com/watch?v=e_TQ9c3n_d8)
+        * [Code::Blocks](https://zahidhasan.wordpress.com/2013/02/16/how-to-install-opencv-on-windows-7-64bit-using-mingw-64-and-codeblocks/)
 
 The demonstration will be done using *Ceemple IDE* for windows and OpenCV installed on *Ubuntu*
 
 # Post - Installation
-Navigate to the test folder and run
-
-`$ make`
+### Linux: 
+Start the terminal and clone the repository, navigate to the test folder and run the Makefile
+```
+$ git clone https://www.github.com/lakshayg/opencv-demo
+$ cd opencv-demo/test
+$ make
+```
+### Windows:
+* Download the repository by clicking on this link [https://github.com/lakshayg/opencv-demo/archive/master.zip](https://github.com/lakshayg/opencv-demo/archive/master.zip)
+* Extract the zip archive and open the file test.cpp in the folder test in any IDE
+* Compile and run using your IDE to check if OpenCV is installed correctly
 
 If you see a window showing the webcam output then you have successfully installed OpenCV.
 Press 'x' to exit.
